@@ -1,0 +1,20 @@
+{
+    "name": "chorizon/theusers",
+    "description": "Basic module for install users",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Antonio de la Rosa",
+            "email": "webmaster@web-t-sys.com"
+        }
+    ],
+    "minimum-stability": "dev-master",
+     
+    "extra": {
+        "installer-paths": {
+            "modules/theusers": ["chorizon/theusers"]
+        }
+    }
+    
+
+}
