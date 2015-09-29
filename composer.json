@@ -8,13 +8,9 @@
             "email": "webmaster@web-t-sys.com"
         }
     ],
-    "minimum-stability": "dev-master",
-     
-    "extra": {
-        "installer-paths": {
-            "modules/theusers": ["chorizon/theusers"]
-        }
-    }
-    
+    "config": {
+        "vendor-dir": "modules"
+    },
+    "minimum-stability": "dev-master"    
 
 }
