@@ -11,6 +11,14 @@
     "config": {
         "vendor-dir": "modules"
     },
-    "minimum-stability": "dev-master"    
+    "minimum-stability": "dev-master",
+
+    "scripts": {
+
+	"post-install-cmd": [
+            "ln -s vendor/chorizon/theusers modules/theusers"
+        ]
+        
+    }
 
 }
