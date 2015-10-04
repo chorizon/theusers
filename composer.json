@@ -1,6 +1,6 @@
 {
     "name": "chorizon/theusers",
-    "description": "Basic module for install users",
+    "description": "Basic module for add users to control panel",
     "license": "GPL",
     "authors": [
         {
@@ -8,17 +8,6 @@
             "email": "webmaster@web-t-sys.com"
         }
     ],
-    "config": {
-        "vendor-dir": "modules"
-    },
     "minimum-stability": "dev-master",
-
-    "scripts": {
-
-	"post-install-cmd": [
-            "ln -s vendor/chorizon/theusers modules/theusers"
-        ]
-        
-    }
 
 }
