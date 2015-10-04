@@ -8,6 +8,5 @@
             "email": "webmaster@web-t-sys.com"
         }
     ],
-    "minimum-stability": "dev-master",
-
+    "minimum-stability": "dev-master"    
 }
